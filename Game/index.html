@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Spike 3D - Anime Volleyball Story</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="ui">
+      <div id="title">SKY SPIKE 3D</div>
+      <div id="subtitle">애니메이션 배구 세계관 스토리 모드</div>
+      <div id="scoreboard">
+        <span id="leftName">나</span>
+        <span id="leftScore">0</span>
+        <span class="dash">-</span>
+        <span id="rightScore">0</span>
+        <span id="rightName">라이벌</span>
+      </div>
+      <div id="hint">
+        이동: WASD | 점프: Space | 서브/스파이크: 좌클릭 | 블로킹: 우클릭 | 서브타입: Z/X/V | 선수: 자동전환(Q/E 수동) | 화면: C/1~5 | 리셋: R
+      </div>
+      <div id="storyBox">
+        <div id="chapter">CHAPTER 1. 다시 뛰는 이유</div>
+        <p id="storyText">
+          무너진 마지막 경기 이후, 너는 다시 코트로 돌아왔다. 전국을 노리는 라이벌들과의 첫 연습 매치가 시작된다.
+        </p>
+      </div>
+      <div id="message"></div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
